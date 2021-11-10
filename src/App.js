@@ -1,11 +1,13 @@
 import "./App.css";
-import HookCounter from "./HookCounter";
-import HookCounterSimple from "./HookCounterSimple";
+import HookCounter2 from "./HookCounter2";
+import HookCounter1 from "./HookCounter1";
+import HookMouse from "./HookMouse";
 function App() {
   return (
     <div className="App">
-      <HookCounter />
-      {/* <HookCounterSimple /> */}
+      {/* <HookCounter2 /> */}
+      {/* <HookCounter1 /> */}
+      <HookMouse />
     </div>
   );
 }

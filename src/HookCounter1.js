@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-function HookCounterSimple() {
+function HookCounter1() {
   const [count, setCount] = useState(0);
 
   const handleClick = () => {
@@ -21,4 +21,4 @@ function HookCounterSimple() {
   );
 }
 
-export default HookCounterSimple;
+export default HookCounter1;
