@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 
+//Data fetching from api. Fetching all the data from api and listing it.
 function DataFetching1() {
   const [apiData, setApiData] = useState([]);
   useEffect(() => {
