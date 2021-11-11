@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 
-function DataFetching() {
+function DataFetching1() {
   const [apiData, setApiData] = useState([]);
   useEffect(() => {
     axios
@@ -9,7 +9,7 @@ function DataFetching() {
       .then((res) => {
         //Setting the response to a variable
         setApiData(res.data);
-        console.log(res);
+        console.log(res.data);
       })
       .catch((err) => {
         console.log(err);
@@ -27,4 +27,4 @@ function DataFetching() {
   );
 }
 
-export default DataFetching;
+export default DataFetching1;
