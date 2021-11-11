@@ -5,16 +5,18 @@ import HookMouse from "./HookMouse";
 import DataFetching1 from "./DataFetching1";
 import DataFetching2 from "./DataFetching2";
 import MouseContainer from "./MouseContainer";
+import IntervalHookCounter from "./IntervalHookCounter";
 
 function App() {
   return (
     <div className="App">
-      {/* <HookCounter2 /> */}
       {/* <HookCounter1 /> */}
+      {/* <HookCounter2 /> */}
       {/* <HookMouse /> */}
       <MouseContainer />
       {/* <DataFetching1 /> */}
       {/* <DataFetching2 /> */}
+      {/* <IntervalHookCounter /> */}
     </div>
   );
 }

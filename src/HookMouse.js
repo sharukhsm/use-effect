@@ -17,7 +17,7 @@ function HookMouse() {
     console.log("useEffect called");
     window.addEventListener("mousemove", logMousePosition);
 
-    //cleanup code or Component unmount code.
+    //cleanup code or Component unmount code. This only works when the component is unmounted.
     return () => {
       console.log("Component unmounted");
       window.removeEventListener("mousemove", logMousePosition);
